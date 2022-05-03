@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      }
+      .container {
+        border-radius: 10px;
+        width: 1000px;
+        position: sticky;
+        top: 3px;
+      }
+      .container .navbar li {
+        font-size: larger;
+        color: rgb(15, 15, 16);
+        list-style: none;
+        display: inline-block;
+        padding-right: 20px;
+      }
+      .container .navbar ul {
+        position: absolute;
+        top: 10px;
+        left: 500px;
+        text-align: center;
+      }
+      .container .navbar li:hover {
+        background-color: rgb(192, 64, 64);
+        padding: 2px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      header img {
+        display: inline-block;
+        position: relative;
+        left: 4px;
+        top: 8px;
+        cursor: pointer;
+      }
+      .container input {
+        display: inline-block;
+        position: relative;
+        left: 1200px;
+        bottom: 30px;
+        padding: 5px;
+        border-radius: 30px;
+      }
+      #form1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: darkslategrey;
+        margin-top: 40px;
+        border-radius: 15px;
+        width: 455px;
+        border: 3px solid grey;
+        text-align: center;
+        position: absolute;
+        left: 500px;
+      }
+      form input {
+        border: 2px solid rgb(244, 239, 239);
+        margin: 10px;
+      }
+      #btn {
+        border: 2px solid;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: green;
+        background-color: rgb(214, 215, 220);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+          <a href="https://www.google.com" target="_blank">
+            <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/50px-Chelsea_FC.svg.png"
+            alt="https://www.google.com"
+          />
+          </a>
+
+        <nav class="navbar">
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Services</li>
+          </ul>
+          <input id="Search" type="text" placeholder="Search This Website" />
+        </nav>
+      </header>
+    </div>
+    <div class="otherpart">
+      <div id="form1">
+        <form action="">
+          <h3>Join the Best Gym of Jaipur</h3>
+          <input type="age" placeholder="Enter Name" />
+          <br />
+          <input type="number" placeholder="Enter Age" />
+          <br />
+          <input type="" placeholder="Enter Gender" />
+          <br />
+          <input type="age" placeholder="Enter Locality" />
+          <br />
+          <input type="age" placeholder="Enter Email ID" />
+          <br />
+          <br />
+          <a href="https://www.facebook.com">
+            <button id="btn">Submit Now</button>
+          </a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
